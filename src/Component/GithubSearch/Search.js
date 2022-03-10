@@ -48,7 +48,6 @@ export const Search = () => {
   useEffect(() => {
     getUserGithub();
   }, []);
-
   return (
     <div className="Main">
       <div className="Container">
